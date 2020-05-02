@@ -20,7 +20,7 @@ void main()
       
     x = strlen(a);
     do {
-        printf("Enter left justification number, right justification number and middle width number:\n");
+        printf("Enter left justification number, right justification number and total width:\n");
         scanf("%d %d %d", &left, &right, &width);
 
         if (width > (left + right)) {
