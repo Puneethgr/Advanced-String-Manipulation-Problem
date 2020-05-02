@@ -4,7 +4,7 @@ Problem Statement:
 
 Input:
 1. A string input from the user (within one single line)
-2. Left width, Right width and Middle width
+2. Left width, Right width and Total width
 
 Rules:
 
