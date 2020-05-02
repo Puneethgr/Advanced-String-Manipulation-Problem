@@ -1,7 +1,15 @@
 text = input("Enter the text:")
-left = int(input("Enter the left width:"))
-right = int(input("Enter the right width:"))
-width = int(input("Enter the width:"))
+
+while True:
+    left = int(input("Enter the left width:"))
+    right = int(input("Enter the right width:"))
+    width = int(input("Enter the width:"))
+
+    if width > (left + right):
+        break    #Break from the while loop  
+    else:
+        print("Invalid width. Width CANNOT be lesser than or equal to sum of left and right width")
+
 
 list1= text.split()        #Split based on space
 z = " ".join(list1);       #Join them on single space. Multiple spaces removed.
@@ -16,7 +24,7 @@ for i,ele in enumerate(z):
             z=z[:i+1]+' '+z[i+1:]
 
 print("After capitalizing: \n",z)
-
+ 
 count = 0
 j=0
 k=(width-(left+right))
