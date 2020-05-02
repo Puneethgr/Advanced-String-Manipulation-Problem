@@ -1,6 +1,7 @@
 # Advanced-String-Manupulation-Problem
 A unique problem which deals with advanced string manupulation (adding capital letter after certain symbols, removing multiple spaces, adjusting width)
 
+-------------
 Problem Statement:
 
 Input:
@@ -20,105 +21,113 @@ Output the final result based on the rules
 ---------------
 Example:
 ---------------
+
 INPUT:
+
 I love programming!       i started programming,when i was 10 years old.i enjoyed it.
 
 left width = 3
+
 right width = 5
+
 total width = 10
 
 ---------------
+
 OUTPUT:
 
 Removing multiple spaces:
+
 I love programming! i started programming,when i was 10 years old.i enjoyed it.
 
 
 Text after capitalizing:
+
 I love programming! I started programming, When i was 10 years old. I enjoyed it.
 
 Final result=
-$$$I   *****
 
-$$$l o *****
 
-$$$v e *****
+###I   *****
 
-$$$  p *****
+###l o *****
 
-$$$r o *****
+###v e *****
 
-$$$g r *****
+###  p *****
 
-$$$a m *****
+###r o *****
 
-$$$m i *****
+###g r *****
 
-$$$n g *****
+###a m *****
 
-$$$!   *****
+###m i *****
 
-$$$I   *****
+###n g *****
 
-$$$s t *****
+###!   *****
 
-$$$a r *****
+###I   *****
 
-$$$t e *****
+###s t *****
 
-$$$d   *****
+###a r *****
 
-$$$p r *****
+###t e *****
 
-$$$o g *****
+###d   *****
 
-$$$r a *****
+###p r *****
 
-$$$m m *****
+###o g *****
 
-$$$i n *****
+###r a *****
 
-$$$g , *****
+###m m *****
 
-$$$  W *****
+###i n *****
 
-$$$h e *****
+###g , *****
 
-$$$n   *****
+###  W *****
 
-$$$i   *****
+###h e *****
 
-$$$w a *****
+###n   *****
 
-$$$s   *****
+###i   *****
 
-$$$1 0 *****
+###w a *****
 
-$$$  y *****
+###s   *****
 
-$$$e a *****
+###1 0 *****
 
-$$$r s *****
+###  y *****
 
-$$$  o *****
+###e a *****
 
-$$$l d *****
+###r s *****
 
-$$$.   *****
+###  o *****
 
-$$$I   *****
+###l d *****
 
-$$$e n *****
+###.   *****
 
-$$$j o *****
+###I   *****
 
-$$$y e *****
+###e n *****
 
-$$$d   *****
+###j o *****
 
-$$$i t *****
+###y e *****
 
-$$$.   *****
+###d   *****
 
+###i t *****
+
+###.   *****
 
 --------
