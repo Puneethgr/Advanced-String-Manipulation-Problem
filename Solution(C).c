@@ -52,7 +52,7 @@ void main()
 
     printf("\nRemoving multiple spaces (if any)\n%s\n", b);
 
-    // To capitalize the letters which are followed by the symbol fullstop,full stop, comma, exclamation
+    // To capitalize the letters which are followed by the symbol fullstop, comma or exclamation AND prefix with a single space.
     for (i = 0; i < strlen(b) - 1; i++) {
         if ((b[i] == '.' || b[i] == '!' || b[i] == ',') && (b[i + 1] != ' ')) {
             k = b[i + 1];
@@ -92,6 +92,7 @@ void main()
                 if (count >= strlen(b))
                     exit(0);
             }
+            
             //right width
             for (r = (left + (width - (left + right))); r < width; r++) {
                 printf("*");
