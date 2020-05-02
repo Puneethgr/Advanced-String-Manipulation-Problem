@@ -9,7 +9,7 @@ Input:
 
 1. A string input from the user (within one single line)
 
-2. Left width, Right width and Middle width
+2. Left width, Right width and Total width
 
 Rules:
 
@@ -20,7 +20,7 @@ then, the letter following these symbols will be capital AND prefixed with a sin
 
 Output:
 
-Output the final result basedon the rules
+Output the final result based on the above rules
 
 ---------------
 Example:
