@@ -2,21 +2,25 @@
 A unique problem which deals with advanced string manupulation (adding capital letter after certain symbols, removing multiple spaces, adjusting width)
 
 -------------
+
 Problem Statement:
 
 Input:
+
 1. A string input from the user (within one single line)
+
 2. Left width, Right width and Middle width
 
 Rules:
+
 1.In the given string, multiple spaces should be converted into a single space.
 
 2. If the input string contains full stop, comma, exclamation,
-Then, the letter following these symbols will be capital
-AND prefixed with a single space.
+then, the letter following these symbols will be capital AND prefixed with a single space.
 
 Output:
-Output the final result based on the rules
+
+Output the final result basedon the rules
 
 ---------------
 Example:
@@ -24,17 +28,15 @@ Example:
 
 INPUT:
 
+
 I love programming!       i started programming,when i was 10 years old.i enjoyed it.
 
 left width = 3
-
 right width = 5
-
 total width = 10
 
 ---------------
-
-OUTPUT:
+OUTPUT: 
 
 Removing multiple spaces:
 
@@ -47,87 +49,89 @@ I love programming! I started programming, When i was 10 years old. I enjoyed it
 
 Final result=
 
+$$$I   *****
 
-###I   *****
+$$$l o *****
 
-###l o *****
+$$$v e *****
 
-###v e *****
+$$$  p *****
 
-###  p *****
+$$$r o *****
 
-###r o *****
+$$$g r *****
 
-###g r *****
+$$$a m *****
 
-###a m *****
+$$$m i *****
 
-###m i *****
+$$$n g *****
 
-###n g *****
+$$$!   *****
 
-###!   *****
+$$$I   *****
 
-###I   *****
+$$$s t *****
 
-###s t *****
+$$$a r *****
 
-###a r *****
+$$$t e *****
 
-###t e *****
+$$$d   *****
 
-###d   *****
+$$$p r *****
 
-###p r *****
+$$$o g *****
 
-###o g *****
+$$$r a *****
 
-###r a *****
+$$$m m *****
 
-###m m *****
+$$$i n *****
 
-###i n *****
+$$$g , *****
 
-###g , *****
+$$$  W *****
 
-###  W *****
+$$$h e *****
 
-###h e *****
+$$$n   *****
 
-###n   *****
+$$$i   *****
 
-###i   *****
+$$$w a *****
 
-###w a *****
+$$$s   *****
 
-###s   *****
+$$$1 0 *****
 
-###1 0 *****
+$$$  y *****
 
-###  y *****
+$$$e a *****
 
-###e a *****
+$$$r s *****
 
-###r s *****
+$$$  o *****
 
-###  o *****
+$$$l d *****
 
-###l d *****
+$$$.   *****
 
-###.   *****
+$$$I   *****
 
-###I   *****
+$$$e n *****
 
-###e n *****
+$$$j o *****
 
-###j o *****
+$$$y e *****
 
-###y e *****
+$$$d   *****
 
-###d   *****
+$$$i t *****
 
-###i t *****
+$$$.   *****
 
-###.   *****
 
 --------
+
+
