@@ -10,15 +10,13 @@ void main()
     int flag = 1;
     char k;
     int i, j, p, q, r;
-    int x, y;
     int left, right, width;
     int count = 0;
 
     printf("Enter some text\n");
 
     fgets(a,sizeof(a),stdin);
-      
-    x = strlen(a);
+
     do {
         printf("Enter left justification number, right justification number and total width:\n");
         scanf("%d %d %d", &left, &right, &width);
@@ -53,8 +51,6 @@ void main()
     b[d] = '\0';
 
     printf("\nRemoving multiple spaces (if any)\n%s\n", b);
-
-    y = strlen(b);
 
     // To capitalize the letters which are followed by the symbol fullstop,full stop, comma, exclamation
     for (i = 0; i < strlen(b) - 1; i++) {
